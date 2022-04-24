@@ -1,0 +1,153 @@
+.profile-info {
+    margin-bottom: 25px;    
+}
+
+.profile-img {
+    width: 80%;
+    max-width: 350px;
+    margin-bottom: 20px;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-title {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    color: var(--red-text)
+}
+
+.profile-sub-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.profile-details {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    max-width: 450px;
+    color: var(--secundary-text-color);
+    margin: 10px auto;
+    text-align: justify;
+}
+
+.contactme {
+    background-color: var(--red-text);
+    border: none;
+    border-radius: 5px;
+    color: var(--text-color);
+    font-size: 15px;
+    padding: 0.5em 1em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.contactme:hover {
+    filter: brightness(200%);
+}
+
+.principales {
+    justify-content: center;         
+}
+
+.cajas-black {
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    background-color: #262b2c;
+    padding: 25px;
+    overflow: auto;
+}
+
+.cajas-red {
+    background-color: red;
+    padding: 25px;
+    overflow: auto;
+    width: 250px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    
+}
+
+.arrows {
+    margin-left: 10px;
+}
+
+.llamador {
+    text-align: center;
+    background-color: #262b2c;
+    width: 85%;
+    padding: 10px;
+    margin: 0 auto;
+    padding: 20px;
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (min-width: 950px) {
+  
+.profile-info {
+        margin-bottom: 0;    
+    }
+    
+.profile-img {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+.profile {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+.profile-title {
+        font-size: 20px;
+    }
+    
+.profile-sub-title {
+        font-size: 45px;
+    }
+    
+.profile-details {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+    
+.contactme {
+        font-size: 20px;
+    }
+
+.principales {
+        display: flex;
+        justify-content: center;   
+        width: 1000px;
+        margin: 0 auto;    
+    }
+
+.p-comunes p {
+        font-size: 0.8em
+    }
+    
+.cajas {
+        width: 250px;
+    }
+
+.llamador {
+    max-width: 920px;
+}
+
+.llamador h2 {
+    font-size: 2em;
+}
+}

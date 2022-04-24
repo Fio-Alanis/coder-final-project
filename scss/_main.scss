@@ -1,0 +1,70 @@
+:root {
+    --theme-color: #1b1f20;
+    --text-color: white;
+    --secundary-text-color: grey;
+    --red-text: red;
+    --navbar-shallow-color: #1b1f20;
+    --menu-mobile-background-color: red;
+    --contrast-black: #262b2c;
+}
+
+//VARIABLES
+$bk-color: #1b1f20;
+$gradient-red: red;
+
+body {
+    background-color: $bk-color;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    padding-top: 70px;
+}
+main {
+    width: 90vw;
+    margin: 0 auto;
+    min-height: calc(100vh - 50px - 25px);
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.horizontal-padding {
+   padding-left: 25px; 
+   padding-right: 25px; 
+}
+
+.vertical-padding {
+    padding-top: 20px; 
+    padding-bottom: 20px; 
+}
+
+  /*FOOTER*/
+
+  .made-by {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      padding-bottom: 10px;
+
+      h3 {
+        font-size: 0.5em;
+      }
+  }
+
+  .heart {
+      margin-right: 5px;
+  }
+
+@media (min-width: 950px) {
+
+    .horizontal-padding {
+        padding-left: 70px; 
+        padding-right: 70px; 
+     }
+     
+     .vertical-padding {
+         padding-top: 30px; 
+         padding-bottom: 30px; 
+     }
+}
