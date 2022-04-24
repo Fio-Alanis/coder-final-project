@@ -1,0 +1,15 @@
+.help h2 {
+    color: red;
+    font-weight: 700;
+    text-align: center;
+}
+
+.help {
+    padding-top: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.help h2:hover {
+    color: white;
+}
